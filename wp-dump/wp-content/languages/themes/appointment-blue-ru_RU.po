@@ -1,0 +1,44 @@
+# Translation of Themes - Appointment Blue in Russian
+# This file is distributed under the same license as the Themes - Appointment Blue package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-08 14:56:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Appointment Blue\n"
+
+#. Description of the plugin/theme
+msgid "A Business theme which is ideal for creating a corporate / business website. Appointment Blue theme is a child theme of appointment theme and it is the Blue color variation. Those who need the white background based theme they can use this child theme. Appointment Blue theme comes with various locales."
+msgstr "Бизнес тема, идеальная для созданий корпоративных сайтов. Appointment Blue является дочерней для Appointment и является ее голубой вариацией. Для тех, кому нужна тема с белым фоном. Appointment Blue доступна на нескольких языках, включая русский."
+
+#. Theme Name of the plugin/theme
+msgid "Appointment Blue"
+msgstr "Appointment Blue"
+
+#: header.php:50
+msgid "Toggle navigation"
+msgstr "Показать/Скрыть навигацию"
+
+#. Template Name of the plugin/theme
+msgid "Blog-right-sidebar"
+msgstr "Blog-right-sidebar"
+
+#. Template Name of the plugin/theme
+msgid "Blog-left-sidebar"
+msgstr "Blog-left-sidebar"
+
+#. Theme URI of the plugin/theme
+msgid "http://webriti.com/appointment-blue-child-version-details-page-1/"
+msgstr "http://webriti.com/appointment-blue-child-version-details-page-1/"
+
+#. Author URI of the plugin/theme
+msgid "http://www.webriti.com"
+msgstr "http://www.webriti.com"
+
+#. Author of the plugin/theme
+msgid "webriti"
+msgstr "webriti"
