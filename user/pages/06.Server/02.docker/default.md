@@ -46,4 +46,7 @@ version: '3'
        - php-fpm
 ```
  
+**Проблема** Как запустить portainer на локальной машине 
+**Решение** 
+>docker run -d -p 8090:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
  
