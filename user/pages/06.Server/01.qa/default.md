@@ -19,3 +19,9 @@ title:
 
 Можно указать дополнительный ключ с конфигурацией. Например:
 >-c app/phpunit.xml.dist
+
+**Проблема** При запуске тестов возникает проблема с нехваткой памяти
+>Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) 
+
+**Решение** 
+> php -d memory_limit=-1 bin/phpunit
