@@ -25,3 +25,11 @@ title:
 
 **Решение** 
 > php -d memory_limit=-1 bin/phpunit
+
+**Проблема** как запустить тест для отдельного метода?
+
+**Решение** добавить ключ --filter Например:
+> --filter testSaveAndDrop EscalationGroupTest escalation/EscalationGroupTest.php
+
+Схема:
+>--filter methodName ClassName path/to/file.php
