@@ -11,3 +11,10 @@ title: Работа с GIT
 
 >git checkout dmitry/master
 >git checkout -b blabla
+
+
+**Проблема** Как достать файлы из 
+>git stash
+
+**Решение**
+>git stash pop
