@@ -49,4 +49,14 @@ version: '3'
 **Проблема** Как запустить portainer на локальной машине 
 **Решение** 
 >docker run -d -p 8090:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
- 
+
+**Проблема** Как заставить один контейнер дождать другой в docker-compose 3
+**Решение** 
+в версии  2 была возможность написать так:
+```
+depends_on:
+      rabbit:
+        condition: service_healthy
+```
+ В версии 3 такой возможности нет. Но можно перезапускать контейнер. Например так:
+ > restart: on-failure:10
