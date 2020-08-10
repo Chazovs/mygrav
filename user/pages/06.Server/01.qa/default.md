@@ -33,3 +33,8 @@ title:
 
 Схема:
 >--filter methodName ClassName path/to/file.php
+
+**Проблема** как искать по содержимому файлов в папке?
+ 
+ **Решение** в этом примере мы экранируем квадратные скобки
+ > find ./ -iname "*.log" -exec grep -iH \\[anyText {} \;
