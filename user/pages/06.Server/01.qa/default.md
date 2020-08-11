@@ -43,5 +43,6 @@ title:
  
 **Решение** через .*
 ```
- find ./ -iname "*.log" -exec grep -iH \\[3177\\].*1421912 {} \
+ find ./ -iname "*.log" -exec grep -iH \\[31377\\].*1421912 {} \
+ find ./ -iname "*.log" -exec grep -iH --regexp='\[2026-08-01 09.*\[316437\].*ERROR' {} \;
 ```
